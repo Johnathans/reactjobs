@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+
+$navbar-default-bg:                          #126AAF;
+$navbar-default-brand-color:      white;
+$brand-primary:                                    #05A5D1;
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.row {
+  display: inline;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #ecf0f1;
+  clear: both;
+  position:fixed;
+  bottom:0;
+  z-index: 10;
+  height: 10em;
+  margin-top: -3em;
+  border-top: 20px solid #05A5D1;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
