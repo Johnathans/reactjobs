@@ -30,12 +30,19 @@ $brand-primary:                                    #05A5D1;
 .btn {
   border-radius: 0px;
 }
-
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 160px;
+}
 .footer {
   width: 100%;
   background-color: #ecf0f1;
   clear: both;
-  position:relative;
+  position:absolute;
   bottom:0;
   z-index: 10;
   height: 10em;
