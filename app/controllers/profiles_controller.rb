@@ -35,7 +35,7 @@ end
   private
 
     def profile_params
-      params.require(:profile).permit(:first_name, :last_name, :title, :email, :github, :description)
+      params.require(:profile).permit(:avatar, :first_name, :last_name, :title, :email, :github, :description)
     end
 
 end
